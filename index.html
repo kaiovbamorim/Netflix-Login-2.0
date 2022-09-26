@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="limited-area header">
+                <a href="#"><img class="logo" src="./assets/netflix_logo.svg"></a>
+                <a href="#"><img class="logoM" src="./assets/netflix-logo_mobile.svg"></a>
+
+                <div class="mobile-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="links-nav" id="links_nav">
+                    <a href="#">Home</a>
+                    <a href="#">Fale Conosco</a>
+                    <a href="#">Precisa de ajuda?</a>
+                    <a href="#">Inscreva-se</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="align-footer-bottom">
+        <div class="background">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+                <div class="slide-img">
+                    <img src="./assets/peakyblinders.webp">
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/strangerthings.webp">
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/cobrakai.webp"/>
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/enolaholmes.webp">
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/annewhitane.webp">
+                </div>
+                <div class="slide-img">
+                    <img src="./assets/vikignsvalhalla.webp">
+                </div>
+                <div class="sombra"></div>
+            </div>
+            <div class="limited-area">
+                <section class="login">
+                    <h1>Entrar</h1>
+                    <form>
+                        <div class="label-input">
+                            <label class="label-email-senha" for="email">Email ou número de telefone</label>
+                            <input class="email-password" id="email" type="email">
+                        </div>
+                        <div class="label-input">
+                            <label class="label-email-senha" for="password">Senha</label required>
+                            <input class="email-password" id="password" type="password" required>
+                            <label class='label-button' for="password"><img class='visibilitySvg'
+                                    src="./assets/visibility.svg"></label>
+                        </div>
+                        <button class="submit" type="submit">Entrar</button>
+                        <div class="container-checkbox-label">
+                            <input id="checkbox" type="checkbox">
+                            <label class="checkbox-label" for="checkbox">Lembre-se de mim</label>
+                        </div>
+                    </form>
+                </section>
+            </div>
+    </main>
+    <footer class="footer">
+        <div class="limited-area limited-footer">
+            <p>Dúvidas? Ligue <a class="link-footer" href="#">0800 591 8942</a></p>
+            <div class="list">
+                <ul>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="#">Centro de ajuda</a></li>
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Preferências de cookies</a></li>
+                    <li><a href="#">Informações corporativas</a></li>
+                </ul>
+            </div>
+            <select>
+                <option>Português</option>
+                <option>Inglês</option>
+            </select>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
