@@ -5,7 +5,7 @@ Nova tela de login da netflix. 📽️🔥
 <br>
 Link: https://kaiovbamorim.github.io/Netflix-Login-2.0/ 
 
-<img src="https://user-images.githubusercontent.com/108599877/192402183-f4dcaf52-ff7b-4b17-803a-caeaf745ca98.png">
+<img src="https://user-images.githubusercontent.com/108599877/205718483-739c3eca-f039-4ea4-acff-f3aaeb0c374f.png">
 
 <h2>Mobile:</h2>
 <br>
