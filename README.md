@@ -3,7 +3,7 @@
 Nova tela de login da netflix. 📽️🔥
 (Projeto pessoal)
 <br>
-Link: https://kaiovbamorim.github.io/Netflix-Login-2.0/ 
+Link: https://netflixnewpage.vercel.app
 
 <img src="https://user-images.githubusercontent.com/108599877/205718483-739c3eca-f039-4ea4-acff-f3aaeb0c374f.png">
 
